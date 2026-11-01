@@ -1,0 +1,9 @@
+{
+  "docker_image": "airobotbook/ros2-desktop-ai-robot-book-humble@sha256:b58ec74c019aacd9ce4818fa25fc5a9e0a1f22f8c9cd1f5260994bf15cd9eb63",
+  "ros": "humble",
+  "pixi_observed": "0.83.0",
+  "pai_training_revision": "b4d6b5459066a80433475a83567504988875248a",
+  "lerobot_revision": "768e36660d1408c71118a2760f831c037fbfa17d",
+  "physicalai_teleop_revision": "0ef2a00fd6d7bb39377969d10f3d26268e447fd9",
+  "execution": "ROS and CPU ACT inference run inside Docker; 1500-step ACT training was executed by the user on a Colab T4 GPU on 2026-11-01."
+}

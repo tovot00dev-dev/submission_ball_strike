@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="strike_ball">
+    <static>false</static>
+    <link name="ball">
+      <inertial>
+        <mass>0.03</mass>
+        <inertia>
+          <ixx>0.0000192</ixx><iyy>0.0000192</iyy><izz>0.0000192</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry><sphere><radius>0.04</radius></sphere></geometry>
+        <surface>
+          <friction><ode><mu>0.3</mu><mu2>0.3</mu2></ode></friction>
+          <bounce><restitution_coefficient>0.1</restitution_coefficient></bounce>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry><sphere><radius>0.04</radius></sphere></geometry>
+        <material>
+          <ambient>1 0.22 0.02 1</ambient>
+          <diffuse>1 0.22 0.02 1</diffuse>
+          <specular>0.25 0.25 0.25 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

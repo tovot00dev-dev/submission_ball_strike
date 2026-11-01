@@ -1,0 +1,39 @@
+﻿ WARN Encountered 1 warning while parsing the manifest:
+  ⚠ the `[system-requirements]` table is deprecated in favor of virtual
+  │ packages on `platforms`
+    ╭─[/home/ubuntu/pai_training/pyproject.toml:22:1]
+ 21 │
+ 22 │ ╭─▶ [tool.pixi.system-requirements]
+ 23 │ ├─▶ libc = { family = "glibc", version = "2.31" }
+    · ╰──── declare these on the `platforms` entries instead
+ 24 │
+    ╰────
+  help: e.g. platforms = [{ name = "my-linux-64", platform = "linux-64", glibc
+        = "2.31" }, { name = "my-linux-aarch64", platform = "linux-aarch64",
+        glibc = "2.31" }]
+
+ WARN the lock file is up-to-date but uses an older format (v6), run `pixi lock` to upgrade to v7 for improved reproducibility
+WARNING:root:No accelerated backend detected. Using default cpu, this will be slow.
+WARNING:root:Device 'cuda' is not available. Switching to 'cpu'.
+Loading weights from local directory
+AI mode: fixed greeting/setup, trained ACT controls ONLY the strike.
+data: true
+
+Arm location verified: [0.5, 0.0, 1.015]; planned ball at [0.438, -0.22, 1.0599999999999998]
+upright
+bow_fixed
+clap_close_1_fixed
+clap_open_1_fixed
+clap_close_2_fixed
+clap_open_2_fixed
+upright_fixed
+lean_prepare_fixed
+windup_fixed
+strike_ready_teacher_preview
+Spawning ball after windup, immediately before strike.
+[INFO] [1793515937.618071206] [ros_gz_sim]: Requested creation of entity.
+[INFO] [1793515937.619700606] [ros_gz_sim]: OK creation of entity.
+strike_ai: using trained ACT predictions, no teacher interpolation.
+ACT strike completed: 65 model predictions.
+Observing the rolling ball for four simulation seconds.
+Trial complete: controller=ai. Task success must be evaluated separately.

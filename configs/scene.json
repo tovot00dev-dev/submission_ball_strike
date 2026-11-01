@@ -1,0 +1,40 @@
+{
+    "world":  "default",
+    "description":  "Front-center at world +X edge; intended shot direction is toward -X. Screen directions depend on camera.",
+    "robot":  {
+                  "name":  "crane_plus",
+                  "position":  [
+                                   0.50,
+                                   0.0,
+                                   1.015
+                               ],
+                  "yaw":  0.0
+              },
+    "ball":  {
+                 "name":  "strike_ball",
+                 "offset_from_robot":  [
+                                           -0.062,
+                                           -0.22,
+                                           0.045
+                                       ]
+             },
+    "table":  {
+                  "top_z":  1.015,
+                  "x_bounds":  [
+                                   -0.11,
+                                   0.69
+                               ],
+                  "y_bounds":  [
+                                   -0.75,
+                                   0.75
+                               ]
+              },
+    "target":  {
+                   "name":  "wood_cube_5cm",
+                   "position":  [
+                                    0,
+                                    -0.1,
+                                    1.015
+                                ]
+               }
+}

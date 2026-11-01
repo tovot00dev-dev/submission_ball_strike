@@ -1,0 +1,18 @@
+{
+  "repo_id": "local/crane_ball_strike",
+  "seed": 42,
+  "fps": 20,
+  "training_steps": 1500,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "chunk_size": 8,
+  "n_action_steps": 1,
+  "dim_model": 64,
+  "n_heads": 4,
+  "dim_feedforward": 256,
+  "n_encoder_layers": 2,
+  "n_decoder_layers": 1,
+  "n_vae_encoder_layers": 2,
+  "policy_wall_timeout_seconds": 20,
+  "max_command_delta_per_tick": 0.075
+}

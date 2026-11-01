@@ -1,0 +1,43 @@
+{
+  "teacher_episodes": 1,
+  "joint_order": [
+    "joint1",
+    "joint2",
+    "joint4",
+    "joint3",
+    "gripper"
+  ],
+  "action_min": [
+    -2.200000047683716,
+    1.2999999523162842,
+    0.15000000596046448,
+    -0.4000000059604645,
+    -0.5235999822616577
+  ],
+  "action_max": [
+    -1.1500004529953003,
+    1.2999999523162842,
+    0.15000000596046448,
+    -0.4000000059604645,
+    -0.5235999822616577
+  ],
+  "scope": "Fixed ball/target positions; only strike is learned.",
+  "config": {
+    "repo_id": "local/crane_ball_strike",
+    "seed": 42,
+    "fps": 20,
+    "training_steps": 1500,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "chunk_size": 8,
+    "n_action_steps": 1,
+    "dim_model": 64,
+    "n_heads": 4,
+    "dim_feedforward": 256,
+    "n_encoder_layers": 2,
+    "n_decoder_layers": 1,
+    "n_vae_encoder_layers": 2,
+    "policy_wall_timeout_seconds": 20,
+    "max_command_delta_per_tick": 0.075
+  }
+}

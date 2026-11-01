@@ -1,0 +1,9 @@
+[
+  {
+    "source_log": "preview_1793511018511571975.json",
+    "sha256": "094e41e1f08c9463dd0290efe44302ec1ded85be366bfe44e234934e988125f2",
+    "samples": 64,
+    "episode": "episode_094e41e1f08c.npz",
+    "success_label": "not automatically verified; teacher trajectory only"
+  }
+]
